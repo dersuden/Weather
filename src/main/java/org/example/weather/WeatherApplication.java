@@ -8,7 +8,9 @@ public class WeatherApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(WeatherApplication.class, args);
-        WeatherDatabase database = new WeatherDatabase();
+        Add infoToDatabase = new Add();
+        Get infoFromDatabase = new Get();
+        infoFromDatabase.getDay();
 
 
     }

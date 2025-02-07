@@ -5,7 +5,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class WeatherDatabase {
+public class Add {
     public void addDay(int id, String temperature, boolean rainy) {
         String url = "jdbc:postgresql://localhost:5432/Weather";
         String user = "Arthur";
